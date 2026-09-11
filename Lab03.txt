@@ -1,0 +1,41 @@
+Time complexity: O(n)
+Space complexity: O(1)
+Justify: The loop checks each element of the array once to find the maximum value. Only one extra variable is used, so the space complexity is constant.
+Snippet 2
+Time complexity: O(n²)
+Space complexity: O(1)
+Justify: Two nested loops compare every element with other elements of the array. No extra memory is used for storing data.
+Snippet 3
+Time complexity: O(log n)
+Space complexity: O(log n)
+Justify: In every recursive call, the number is divided by 10. The recursion continues according to the number of digits, so both time and space depend on log n.
+Snippet 4
+Time complexity: O(n²)
+Space complexity: O(n²)
+Justify: Two loops generate all possible pairs of elements. The result list stores n² pairs, so extra space is also n².
+Snippet 5
+Time complexity: O(log n)
+Space complexity: O(1)
+Justify: Binary search reduces the search space by half after every iteration. Only few variables are used, so constant extra space is required.
+Snippet 6
+Time complexity: O(n³)
+Space complexity: O(n²)
+Justify: Three nested loops are used for multiplying matrices of size n. The result matrix requires n² memory.
+Snippet 7
+Time complexity (in terms of matrix dimensions m and n): O(m × n)
+Space complexity (in terms of k non-zero elements): O(k)
+Justify: The whole matrix is scanned once. Only non-zero elements are stored in the triples list.
+Snippet 8
+Time complexity: O(n²)
+Justify: The first loop takes O(n) time and the nested loop takes O(n²) time. The larger value dominates, so the final complexity is O(n²).
+Snippet 9
+Time complexity: O(n)
+Justify: The inner loop always runs only 10 times, which is constant. The outer loop runs n times, making the total complexity O(n).
+Snippet 10
+Time complexity: O(n)
+Space complexity: O(n)
+Justify: Every element is visited once and stored in a new reversed array. The new array requires n extra space.
+Snippet 11
+Time complexity: O(n)
+Space complexity: O(1)
+Justify: The elements are swapped from both ends until the middle is reached. No additional array is created.
