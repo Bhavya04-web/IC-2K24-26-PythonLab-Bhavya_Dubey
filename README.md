@@ -64,6 +64,6 @@ IC-2K24-39-PythonLab-IshaanSharma/
 
 ## Author
 
-**Ishaan Sharma**  
+**Bhavya Dubey**  
 MCA (5 Years) | 5th Semester  
-Roll No.: **IC-2K24-39**
+Roll No.: **IC-2K24-26**
